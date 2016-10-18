@@ -1,5 +1,11 @@
 #!/usr/bin/python
-# carlosrl@gmail.com - 08/08/2016
+# Copyright (C) 2016, 2016 Carlos R. Lacerda
+#%
+#% $Id: PurePursuit.py 2016-08-08 12:09:23Z carlosrl_at_gmail_dot_com $
+#%
+#% This software is distributed under the GNU General Public 
+#% Licence (version 2 or later); please refer to the file 
+#% Licence.txt, included with the software, for details.
 
 import numpy as np
 import math

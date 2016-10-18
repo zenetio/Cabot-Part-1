@@ -1,5 +1,11 @@
 #!/usr/bin/python
-# carlosrl@gmail.com - 08/08/2016
+# Copyright (C) 2016, 2016 Carlos R. Lacerda
+#%
+#% $Id: ShortestPath.py 2016-08-08 12:09:23Z carlosrl_at_gmail_dot_com $
+#%
+#% This software is distributed under the GNU General Public 
+#% Licence (version 2 or later); please refer to the file 
+#% Licence.txt, included with the software, for details.
 
 import numpy as np
 import yaml
@@ -116,47 +122,3 @@ def update(i, j, d, p):
         distances[i, j] = d
         map[i, j] = 4
         parent[i, j] = p
-
-""""
-Example
-def test():
-    """
-    Function that provides a few examples of maps and their solution paths
-    """
-    test_map1 = np.array([
-        [1, 1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1, 1]])
-    x_spacing1 = 0.13
-    y_spacing1 = 0.2
-    start1 = np.array([[0.325], [0.3], [0]])
-    goal1 = np.array([[0.6], [1], [0]])
-    path1 = dijkstras(test_map1, x_spacing1, y_spacing1, start1, goal1)
-    true_path1 = np.array([
-        # [ 0.3  ,  0.3  ],
-        [0.325, 0.3],
-        [0.325, 0.5],
-        [0.325, 0.7],
-        [0.455, 0.7],
-        [0.455, 0.9],
-        [0.585, 0.9],
-        [0.600, 1.0]
-    ])
-    if np.array_equal(path1, true_path1):
-        print("Ok")
-
-
-def main():
-    # Load parameters from yaml
-    test()
-
-if __name__ == '__main__':
-    main()
-"""
