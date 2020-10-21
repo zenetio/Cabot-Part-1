@@ -17,30 +17,30 @@ That said, as I mentioned above, the basic autonomous that I will be working on 
 
 - Tracking
   - Path planning (Dijkstra’s algorithm). Implementation in Python for easy test and C/C++ for better performance.
-  o   Controls
-  o   Estimation (Extended Kalman Filter – EKF)
+  - Controls
+  - Estimation (Extended Kalman Filter – EKF)
 - Calibration
-  o   Calibrate sensors
-  o   Calibrate the robot
+  - Calibrate sensors
+  - Calibrate the robot
 - Control
-  o   Design and implement a controller
-  o   Apply to poses
-  o   Follow AprilTag markers
-  o   Implement EKF to manage AprilTag
-  o   Process measurements values from IMU
-·         Putting all together
+  - Design and implement a controller
+  - Apply to poses
+  - Follow AprilTag markers
+  - Implement EKF to manage AprilTag
+  - Process measurements values from IMU
+- Putting all together
 
 Moving the robot autonomously
 
-Choosing the hardware
+## Choosing the hardware
 
 Basically, I am using:
-·         Raspberry Pi 2 (but Pi 3 has better performance)
-·         Sense HAT (but you can use any other IMU)
-·         Pi camera
-·         2 DC motors
-·         Stepper motor HAT
-·         Batteries
+- Raspberry Pi 2 (but Pi 3 has better performance)
+- Sense HAT (but you can use any other IMU)
+- Pi camera
+- 2 DC motors
+- Stepper motor HAT
+- Batteries
 
 To help on the hardware list, here you have 2 suggestions.
 The first, you will find here from Adafruit.
