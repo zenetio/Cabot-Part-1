@@ -58,10 +58,13 @@ In Adafruit website you will find figures and videos showing how to assembly the
 
 Here is a picture of my assembled robot.
 
-![Figure 2](fig/20160706_141747.jpg)- Final assembled kit
+![Figure 2](fig/20160706_141747.jpg)
+Final assembled kit
+
 One suggestion about the hardware is try to use a different power source for the motors and for raspberry pi. The motors use to dry a good current value and if you use the same power source for both raspberry pi and the motors, this might make raspberry to became unstable, causing malfunction, which means that your computer becomes not reliable. Or use a robust battery that can support the entire system.
 
-Getting the software
+## The software
+
 In this project I am using Raspbian Jessie version 4.4 that you can download from here.
 The software for vehicle control is ROS Indigo that you can download from here.
 
@@ -73,22 +76,18 @@ I attached a HDMI monitor to my Pi, to do my initial Raspberry Pi setup. After t
 You will find the installation guide of ROS Indigo on Raspberry Pi here.
 Basically the steps are:
 
-1.       Setup ROS repositories
-2.       Create catkin workspace
-3.       Resolve dependencies
-4.       Build the catkin workspace
+1. Setup ROS repositories
+2. Create catkin workspace
+3. Resolve dependencies
+4. Build the catkin workspace
 
 After configure the environment, I added the VNC server to allow me to use GUI interface only when necessary. For instance, to run the PyCharm package to load and run some Python projects. You will find the instructions for VNC server installation here.
 
-Testing the robot movement
+## Testing the robot movement
 
-In this video you can see the progress of this project. Note that for now, I have only provided basic functionalities just to test if the driver and motors are working properly.
+In [this video](https://www.youtube.com/watch?v=ONIoCzXAc0g) you can see the progress of this project. Note that for now, I have only provided basic functionalities just to test if the driver and motors are working properly.
 
 For the next Part 2, I will be work on motor, camera and IMU calibrations.
-Stay tuned…
 
+[My blog](http://kinect-i.blogspot.com.br/2016/07/design-and-implementation-of-autonomous.html)
 
-
-Design and Implement an Autonomous Vehicle System
-You will find the complete documentation in my blog at http://kinect-i.blogspot.com.br/2016/07/design-and-implementation-of-autonomous.html
-Note that the project was splitted in parts.
