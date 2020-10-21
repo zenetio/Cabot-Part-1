@@ -9,25 +9,25 @@ Currently I am enrolled in a project where the target is, at final, implement so
 My goal is the design and development of software system or, in other words, the algorithms used to implement applications involved in both discrete actions and continuous motions. So, I will not go into details about the hardware used (it is very simple) but I will point some resources where you can get more details.
 So, let me describe what you will find here in the next weeks.
 
-Summary of Project Content
+## Summary of Project Content
 
 To facilitate the design, implementation and tests, the software language will be primarily Python but I will try to provide a C/C++ version when possible (and if I have time) for better performance. In addition, in some cases I will also provide the Matlab source code that is a good platform for simulation.
 
 That said, as I mentioned above, the basic autonomous that I will be working on are listed as follow:
 
-·         Tracking
-o   Path planning (Dijkstra’s algorithm). Implementation in Python for easy test and C/C++ for better performance.
-o   Controls
-o   Estimation (Extended Kalman Filter – EKF)
-·         Calibration
-o   Calibrate sensors
-o   Calibrate the robot
-·         Control
-o   Design and implement a controller
-o   Apply to poses
-o   Follow AprilTag markers
-o   Implement EKF to manage AprilTag
-o   Process measurements values from IMU
+- Tracking
+  o   Path planning (Dijkstra’s algorithm). Implementation in Python for easy test and C/C++ for better performance.
+  o   Controls
+  o   Estimation (Extended Kalman Filter – EKF)
+- Calibration
+  o   Calibrate sensors
+  o   Calibrate the robot
+- Control
+  o   Design and implement a controller
+  o   Apply to poses
+  o   Follow AprilTag markers
+  o   Implement EKF to manage AprilTag
+  o   Process measurements values from IMU
 ·         Putting all together
 
 Moving the robot autonomously
