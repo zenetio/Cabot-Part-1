@@ -49,7 +49,8 @@ In both suggestions you will need to add a Pi camera, an IMU and stepper motor H
 
 Here is a picture of my hardware kit.
 
-Figure 1 - The hardware list
+[Figure 1](fig/20160704_102622.jpg)
+The hardware list
 
 In Adafruit website you will find figures and videos showing how to assembly the hardware.
 
