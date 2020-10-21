@@ -4,7 +4,9 @@
 What is an Autonomous Vehicle System?
 
 Based on Wikipedia, an autonomous vehicle is a vehicle that is capable of sensing its environment and navigating without human input.
+
 Using sensors like radar, lidar, GPS, odometry and computer vision, autonomous aerial and non-aerial vehicles can detect and analyze the environment for navigation and data collection.
+
 Currently I am enrolled in a project where the target is, at final, implement some basic autonomous features to a robot vehicle. So, I decided to share this journey, allowing access to the project’s content. This is an ongoing project and so, I will update this blog and the repository from time to time while the project is in progress.
 My goal is the design and development of software system or, in other words, the algorithms used to implement applications involved in both discrete actions and continuous motions. So, I will not go into details about the hardware used (it is very simple) but I will point some resources where you can get more details.
 So, let me describe what you will find here in the next weeks.
@@ -56,7 +58,7 @@ In Adafruit website you will find figures and videos showing how to assembly the
 
 Here is a picture of my assembled robot.
 
-Figure 2- Final assembled kit
+![Figure 2](fig/20160704_141747.jpg)- Final assembled kit
 One suggestion about the hardware is try to use a different power source for the motors and for raspberry pi. The motors use to dry a good current value and if you use the same power source for both raspberry pi and the motors, this might make raspberry to became unstable, causing malfunction, which means that your computer becomes not reliable. Or use a robust battery that can support the entire system.
 
 Getting the software
