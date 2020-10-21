@@ -58,7 +58,7 @@ In Adafruit website you will find figures and videos showing how to assembly the
 
 Here is a picture of my assembled robot.
 
-![Figure 2](fig/20160704_141747.jpg)- Final assembled kit
+![Figure 2](fig/20160706_141747.jpg)- Final assembled kit
 One suggestion about the hardware is try to use a different power source for the motors and for raspberry pi. The motors use to dry a good current value and if you use the same power source for both raspberry pi and the motors, this might make raspberry to became unstable, causing malfunction, which means that your computer becomes not reliable. Or use a robust battery that can support the entire system.
 
 Getting the software
