@@ -16,7 +16,7 @@ To facilitate the design, implementation and tests, the software language will b
 That said, as I mentioned above, the basic autonomous that I will be working on are listed as follow:
 
 - Tracking
--- Path planning (Dijkstra’s algorithm). Implementation in Python for easy test and C/C++ for better performance.
+  - Path planning (Dijkstra’s algorithm). Implementation in Python for easy test and C/C++ for better performance.
   o   Controls
   o   Estimation (Extended Kalman Filter – EKF)
 - Calibration
